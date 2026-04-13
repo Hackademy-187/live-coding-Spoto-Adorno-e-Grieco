@@ -101,14 +101,38 @@
 /* fine parte giorgia */
 /* parte claudio */
 
+/* .rounded-circle{height: 300px; */
+/* width: 300px;} */
 
+.imgCircle{
+    width: 200px;
+    height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 50%;
+}
+.imgCircle:hover{
+    border: 3px solid rgb(225, 222, 7);
+    padding: 0;
+    cursor: pointer;
+padding: 20px;
+}
 
+.sfondo-aulab {
+  height: 200vh;
+ background-image: url(./media/sfondo\ aulab.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-
-
-
-
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h3-text {color: yellow;
+}
 
 
 
