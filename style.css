@@ -208,7 +208,7 @@
 }
 
 .sfondo-aulab {
-    height: 200vh;
+    height: 100vh;
     background-color: #331733fe;
     background-image: linear-gradient(45deg, rgba(0,0,0,0.2), rgba(0,0,0,0.6)0);
     display: flex;
@@ -220,7 +220,14 @@
     color: rgb(143, 143, 136);
 }
 
-
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+}
+.section2 {
+    background-color: #331733fe;
+    height: 50vh;
+}
 
 
 
