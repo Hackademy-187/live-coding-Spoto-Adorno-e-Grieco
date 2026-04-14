@@ -208,7 +208,7 @@
 }
 
 .sfondo-aulab {
-    height: 100vh;
+    height: 80vh;
     background-color: #331733fe;
     background-image: linear-gradient(45deg, rgba(0,0,0,0.2), rgba(0,0,0,0.6)0);
     display: flex;
@@ -220,17 +220,28 @@
     color: rgb(143, 143, 136);
 }
 
-.carousel-img {
-    height: 400px;
-    object-fit: cover;
-}
+
 .section2 {
     background-color: #331733fe;
-    height: 50vh;
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.2), rgba(0,0,0,0.6)0);
+    height: 80vh;
 }
-
-
-
+.cardimg {
+    height: 400px;
+    width: 300px;
+   
+}
+.imgtonde {
+    border-radius: 50%;
+    height: 150px;
+    width: 300px;
+    object-fit: 100% 100%;
+}
+.card-img-top 
+ {   height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
 
 
 
