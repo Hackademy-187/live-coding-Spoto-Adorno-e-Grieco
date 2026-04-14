@@ -1,4 +1,87 @@
 /* parte giorgia */
+/* parte giorgia */
+/* Reset base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    /* tutta la schermata */
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -2;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.hero-content .btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
 
 
 
@@ -104,37 +187,38 @@
 /* .rounded-circle{height: 300px; */
 /* width: 300px;} */
 
-.imgCircle{
+.imgCircle {
     width: 200px;
     height: 200px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding: 10px;
-   border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #fff;
 }
-.imgCircle:hover{
+
+.imgCircle:hover {
     border: 3px solid rgb(225, 222, 7);
     padding: 0;
+    transform: scale(1.1);
     cursor: pointer;
-padding: 20px;
+    padding: 20px;
+    
 }
 
 .sfondo-aulab {
-  height: 200vh;
- background-image: url(./media/sfondo\ aulab.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.h3-text {color: yellow;
+    height: 200vh;
+    background-color: #331733fe;
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.2), rgba(0,0,0,0.6)0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
+.h3-text {
+    color: rgb(143, 143, 136);
+}
 
 
 
@@ -223,7 +307,104 @@ padding: 20px;
 
 /* fine claudio */
 /* inizio pietro */
-
+.footer {
+            background: linear-gradient(145deg, #1a1c23, #242730);
+            color: #ffffff;
+            background-image: url(media/footer.jpg);
+        }
+        
+        .footer-title {
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        
+        .footer-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 30px;
+            height: 2px;
+            background: #6c5ce7;
+        }
+        
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: #b4b6bb;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #ffffff;
+            padding-left: 5px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            color: #ffffff;
+            margin-right: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: #6c5ce7;
+            transform: translateY(-3px);
+        }
+        
+        .newsletter-input {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: #ffffff;
+        }
+        
+        .newsletter-input:focus {
+            background: rgba(255,255,255,0.15);
+            border-color: #6c5ce7;
+            color: #ffffff;
+            box-shadow: none;
+        }
+        
+        .btn-subscribe {
+            background: #6c5ce7;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-subscribe:hover {
+            background: #5a4bd1;
+            transform: translateY(-2px);
+        }
+        
+        .footer-bottom {
+            background: rgba(0,0,0,0.2);
+        }
+        
+        .footer-bottom a {
+            color: #6c5ce7;
+            text-decoration: none;
+        }
+        
+        .footer-bottom a:hover {
+            color: #ffffff;
+        }
 
 
 
